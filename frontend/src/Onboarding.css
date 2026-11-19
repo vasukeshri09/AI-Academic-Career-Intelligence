@@ -1,0 +1,354 @@
+
+.onboarding-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  padding: 45px 20px;
+  color: #172033;
+}
+
+.onboarding-container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.onboarding-brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 18px;
+  font-weight: 750;
+  margin-bottom: 45px;
+}
+
+.onboarding-logo {
+  width: 40px;
+  height: 40px;
+  background: #5b5cf0;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.onboarding-heading {
+  margin-bottom: 28px;
+}
+
+.onboarding-heading h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.onboarding-heading > p:last-child {
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.onboarding-progress {
+  margin-bottom: 25px;
+}
+
+.progress-track {
+  height: 7px;
+  background: #e7e9f1;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress-current {
+  height: 100%;
+  background: #5b5cf0;
+  border-radius: 20px;
+  transition: width 0.3s ease;
+}
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 11px;
+  gap: 8px;
+}
+
+.progress-labels span {
+  font-size: 11px;
+  color: #98a2b3;
+  font-weight: 600;
+}
+
+.progress-labels span.active {
+  color: #5556d9;
+}
+
+.onboarding-card {
+  background: white;
+  border: 1px solid #e7eaf0;
+  border-radius: 17px;
+  padding: 30px;
+  box-shadow: 0 4px 18px rgba(20, 30, 60, 0.04);
+}
+
+.onboarding-card-heading {
+  margin-bottom: 25px;
+}
+
+.onboarding-card-heading h2 {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.onboarding-card-heading p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #667085;
+}
+
+.onboarding-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.onboarding-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.onboarding-field label {
+  font-size: 12px;
+  font-weight: 650;
+  color: #475467;
+}
+
+.onboarding-field input,
+.onboarding-field select {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #dfe3ed;
+  border-radius: 8px;
+  padding: 0 12px;
+  background: white;
+  color: #172033;
+  outline: none;
+  font-size: 13px;
+}
+
+.onboarding-field input:focus,
+.onboarding-field select:focus {
+  border-color: #7778f2;
+  box-shadow: 0 0 0 3px rgba(91, 92, 240, 0.08);
+}
+
+.onboarding-primary,
+.onboarding-secondary {
+  min-height: 45px;
+  padding: 0 19px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 650;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.onboarding-primary {
+  border: none;
+  background: #5b5cf0;
+  color: white;
+}
+
+.onboarding-primary:hover {
+  background: #494ad4;
+}
+
+.onboarding-primary:disabled,
+.onboarding-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.onboarding-secondary {
+  border: 1px solid #dfe3ed;
+  background: white;
+  color: #475467;
+}
+
+.onboarding-secondary:hover {
+  background: #f8f9fc;
+}
+
+.onboarding-card > .onboarding-primary {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.onboarding-error {
+  background: #fff1f0;
+  color: #b42318;
+  border: 1px solid #fecdca;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 18px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.onboarding-skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 470px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.onboarding-skill {
+  border: 1px solid #e7eaf0;
+  border-radius: 11px;
+  padding: 15px;
+  transition: border-color 0.2s;
+}
+
+.onboarding-skill.selected {
+  border-color: #7778f2;
+  background: #fafaff;
+}
+
+.skill-select-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.skill-select-label input {
+  width: 17px;
+  height: 17px;
+  accent-color: #5b5cf0;
+  cursor: pointer;
+}
+
+.skill-select-name {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.skill-select-name strong {
+  font-size: 13px;
+}
+
+.skill-select-name small {
+  font-size: 11px;
+  color: #98a2b3;
+}
+
+.skill-assessment {
+  margin: 17px 0 2px 29px;
+}
+
+.skill-assessment-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-bottom: 13px;
+}
+
+.skill-assessment-heading span {
+  color: #667085;
+}
+
+.skill-assessment-heading strong {
+  color: #5556d9;
+  font-size: 16px;
+}
+
+.proficiency-slider {
+  width: 100%;
+  height: 7px;
+  accent-color: #5b5cf0;
+  cursor: pointer;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 10px;
+  color: #98a2b3;
+}
+
+.selected-skills-count {
+  margin-top: 18px;
+  color: #5556d9;
+  font-weight: 650;
+  font-size: 12px;
+}
+
+.onboarding-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.onboarding-actions .onboarding-primary {
+  flex: 1;
+}
+
+.onboarding-empty {
+  background: #f8f9fc;
+  border: 1px dashed #dfe3ed;
+  border-radius: 10px;
+  padding: 25px;
+  color: #667085;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.onboarding-footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #98a2b3;
+  font-size: 11px;
+}
+
+@media (max-width: 600px) {
+  .onboarding-page {
+    padding: 25px 14px;
+  }
+
+  .onboarding-brand {
+    margin-bottom: 32px;
+  }
+
+  .onboarding-heading h1 {
+    font-size: 24px;
+  }
+
+  .onboarding-card {
+    padding: 20px 15px;
+  }
+
+  .onboarding-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .progress-labels span {
+    font-size: 9px;
+  }
+
+  .onboarding-actions {
+    flex-direction: column-reverse;
+  }
+
+  .onboarding-actions button {
+    width: 100%;
+  }
+}
