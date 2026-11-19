@@ -1,12 +1,8 @@
 # 🚀 AI-Powered Academic & Career Intelligence Platform
 
-\<p align="center">
-&#x20; \<strong>Empowering Students to Make Smarter Academic and Career Decisions with AI\</strong>
-\</p>
+### Empowering Students to Make Smarter Academic and Career Decisions with AI
 
-\<p align="center">
-&#x20; An intelligent, personalized platform that analyzes student skills, identifies career opportunities, evaluates career readiness, and generates tailored learning roadmaps using Artificial Intelligence and Machine Learning.
-\</p>
+An intelligent, personalized platform that analyzes student skills, identifies career opportunities, evaluates career readiness, and generates tailored learning roadmaps using Artificial Intelligence and Machine Learning.
 
 ---
 
@@ -20,74 +16,69 @@ Instead of providing generic career suggestions, the system analyzes individual 
 
 Our goal is to bridge the gap between academic knowledge and industry requirements.
 
+---
+
 ## ✨ Core Features
 
 ### 👨‍🎓 1. Student Skill Profiling
-
 - Personalized student profiles.
 - Track technical and professional skills.
 - Evaluate individual skill proficiency.
 - Maintain academic information.
 
 ### 🎯 2. Intelligent Career Recommendations
-
 - AI-driven career suggestions.
 - Match student skills with career requirements.
 - Identify suitable career opportunities.
 - Generate personalized career recommendations.
 
 ### 📊 3. Skill Gap Analysis
-
 - Compare existing skills with industry requirements.
 - Identify missing or underdeveloped skills.
 - Highlight areas that require improvement.
 - Provide actionable recommendations.
 
 ### 📈 4. Career Readiness Assessment
-
 - Calculate overall career readiness.
 - Evaluate skill proficiency against career expectations.
 - Identify strengths and weaknesses.
 - Track areas requiring improvement.
 
 ### 🗺️ 5. Personalized Learning Roadmap
-
 - Generate structured learning paths.
 - Recommend skills to learn.
 - Organize learning into achievable stages.
 - Support continuous academic and professional development.
 
 ### 🤖 6. AI-Powered Career Assistant
-
 - Interactive AI assistant.
 - Academic and career-related conversations.
 - Personalized guidance based on student information.
 - Assistance with career planning and skill development.
 
 ### 🧠 7. RAG-Based Academic & Career Guidance
-
 - Retrieval-Augmented Generation architecture.
 - Context-aware information retrieval.
 - Semantic search using embeddings.
-- More relevant and knowledge-grounded AI responses.
+- Knowledge-grounded AI responses.
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Category          | Technologies                         |
-| ----------------- | ------------------------------------ |
-| Frontend          | React.js, Next.js                    |
-| Backend           | Python, FastAPI                      |
-| Database          | PostgreSQL                           |
-| Vector Database   | pgvector                             |
-| Machine Learning  | Scikit-learn                         |
-| NLP & Embeddings  | Sentence Transformers                |
-| AI Integration    | Large Language Models (LLMs)         |
-| AI Architecture   | Retrieval-Augmented Generation (RAG) |
-| Containerization  | Docker                               |
-| API Documentation | Swagger / OpenAPI                    |
-| Version Control   | Git & GitHub                         |
+| Category | Technologies |
+|---|---|
+| Frontend | React.js, Next.js |
+| Backend | Python, FastAPI |
+| Database | PostgreSQL |
+| Vector Database | pgvector |
+| Machine Learning | Scikit-learn |
+| NLP & Embeddings | Sentence Transformers |
+| AI Integration | Large Language Models (LLMs) |
+| AI Architecture | Retrieval-Augmented Generation (RAG) |
+| Containerization | Docker |
+| API Documentation | Swagger / OpenAPI |
+| Version Control | Git & GitHub |
 
 ---
 
@@ -96,59 +87,59 @@ Our goal is to bridge the gap between academic knowledge and industry requiremen
 The platform follows a modular architecture consisting of the following major components:
 
 ```text
-              STUDENT
-                 |
-                 v
-       +--------------------+
-       |   React Frontend   |
-       |  Student Dashboard |
-       +--------------------+
-                 |
-                 v
-       +--------------------+
-       |    FastAPI Backend |
-       |    REST APIs       |
-       +--------------------+
-                 |
-       +---------+----------+
-       |                    |
-       v                    v
-+--------------+    +------------------+
-| PostgreSQL   |    | AI / ML Engine   |
-| Student Data |    | Career Analysis  |
-| Skills       |    | Recommendations  |
-| Roadmaps     |    | Readiness Score  |
-+--------------+    +------------------+
-                            |
-                            v
-                   +------------------+
-                   | RAG Pipeline     |
-                   | Embeddings       |
-                   | Semantic Search  |
-                   | LLM Integration  |
-                   +------------------+
-                            |
-                            v
-                   +------------------+
-                   | AI Career        |
-                   | Assistant        |
-                   +------------------+
+                  STUDENT
+                     |
+                     v
+          +----------------------+
+          |    React Frontend    |
+          |   Student Dashboard  |
+          +----------------------+
+                     |
+                     v
+          +----------------------+
+          |    FastAPI Backend   |
+          |      REST APIs       |
+          +----------------------+
+                     |
+             +-------+-------+
+             |               |
+             v               v
+     +---------------+  +----------------+
+     |  PostgreSQL   |  |   AI / ML      |
+     | Student Data  |  | Career Engine  |
+     | Skills        |  | Recommendations|
+     | Roadmaps      |  | Readiness Score|
+     +---------------+  +----------------+
+                              |
+                              v
+                     +----------------+
+                     |  RAG Pipeline  |
+                     |  Embeddings    |
+                     | Semantic Search|
+                     | LLM Integration|
+                     +----------------+
+                              |
+                              v
+                     +----------------+
+                     | AI Career      |
+                     | Assistant      |
+                     +----------------+
 ```
 
 ---
 
 ## 📂 Project Modules
 
-| Module           | Description                              |
-| ---------------- | ---------------------------------------- |
-| Authentication   | Student registration and login           |
-| Student Profile  | Academic and personal skill information  |
-| Career Engine    | Career matching and recommendations      |
-| Skill Analysis   | Skill proficiency and gap identification |
-| Readiness Engine | Career readiness evaluation              |
-| Learning Roadmap | Personalized learning paths              |
-| AI Assistant     | Interactive academic and career guidance |
-| RAG Engine       | Context-aware knowledge retrieval        |
+| Module | Description |
+|---|---|
+| Authentication | Student registration and login |
+| Student Profile | Academic and personal skill information |
+| Career Engine | Career matching and recommendations |
+| Skill Analysis | Skill proficiency and gap identification |
+| Readiness Engine | Career readiness evaluation |
+| Learning Roadmap | Personalized learning paths |
+| AI Assistant | Interactive academic and career guidance |
+| RAG Engine | Context-aware knowledge retrieval |
 
 ---
 
@@ -165,7 +156,10 @@ The platform follows a modular architecture consisting of the following major co
 
 ## 👨‍💻 Development Team
 
-\<table>   \<tr>     \<td align="center">       \<strong>Vasu Keshri\</strong>\<br/>       Project Developer     \</td>     \<td align="center">       \<strong>Achal Tiwari\</strong>\<br/>       Project Developer     \</td>   \</tr> \</table>
+| Team Member | Role |
+|---|---|
+| **Vasu Keshri** | Project Developer |
+| **Achal Tiwari** | Project Developer |
 
 ---
 
@@ -207,6 +201,4 @@ Your support and feedback are appreciated!
 
 ---
 
-\<p align="center">
-&#x20; \<strong>AI-Powered Guidance. Smarter Decisions. Better Careers. 🚀\</strong>
-\</p>
+### 🚀 AI-Powered Guidance. Smarter Decisions. Better Careers.
